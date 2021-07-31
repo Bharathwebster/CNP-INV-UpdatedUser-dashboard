@@ -566,41 +566,62 @@ export class BayhomeComponent implements OnInit {
                     }
                     })
 
-                this.bay25A =  this._toolsListed.filter(data=>{
-                  return data.bay_number=='25A' && data.is_active == true
-                });
-                  this.bay25A.forEach(function (value) {
-                  if(value.status === 'IN'){
-                    $('#bay25A').css({fill: "#ffff80"});
-                  }
-                  else if (value.status === 'ID') {
-                    $('#bay25A').css({fill: "#ff7f7f"});
-                  }
-                  else if (value.status === 'PR') {
-                    $('#bay25A').css({fill: "#c2de80"});
-                  }
-                  else if (value.status === 'MA') {
-                    $('#bay25A').css({fill: "#9ac3f5"});
-                  }
-                  })
 
-                  this.bay25B =  this._toolsListed.filter(data=>{
-                    return data.bay_number=='25B' && data.is_active == true
-                  });
-                    this.bay25B.forEach(function (value) {
-                    if(value.status === 'IN'){
-                      $('#bay25B').css({fill: "#ffff80"});
-                    }
-                    else if (value.status === 'ID') {
-                      $('#bay25B').css({fill: "#ff7f7f"});
-                    }
-                    else if (value.status === 'PR') {
-                      $('#bay25B').css({fill: "#c2de80"});
-                    }
-                    else if (value.status === 'MA') {
-                      $('#bay25B').css({fill: "#9ac3f5"});
-                    }
-                    })
+
+
+                    this.bay25 =  this._toolsListed.filter(data=>{
+                      return data.bay_number=='25' && data.is_active == true
+                    });
+                      this.bay25.forEach(function (value) {
+                      if(value.status === 'IN'){
+                        $('#bay25').css({fill: "#ffff80"});
+                      }
+                      else if (value.status === 'ID') {
+                        $('#bay25').css({fill: "#ff7f7f"});
+                      }
+                      else if (value.status === 'PR') {
+                        $('#bay25').css({fill: "#c2de80"});
+                      }
+                      else if (value.status === 'MA') {
+                        $('#bay25').css({fill: "#9ac3f5"});
+                      }
+                      })
+
+                // this.bay25A =  this._toolsListed.filter(data=>{
+                //   return data.bay_number=='25A' && data.is_active == true
+                // });
+                //   this.bay25A.forEach(function (value) {
+                //   if(value.status === 'IN'){
+                //     $('#bay25A').css({fill: "#ffff80"});
+                //   }
+                //   else if (value.status === 'ID') {
+                //     $('#bay25A').css({fill: "#ff7f7f"});
+                //   }
+                //   else if (value.status === 'PR') {
+                //     $('#bay25A').css({fill: "#c2de80"});
+                //   }
+                //   else if (value.status === 'MA') {
+                //     $('#bay25A').css({fill: "#9ac3f5"});
+                //   }
+                //   })
+
+                //   this.bay25B =  this._toolsListed.filter(data=>{
+                //     return data.bay_number=='25B' && data.is_active == true
+                //   });
+                //     this.bay25B.forEach(function (value) {
+                //     if(value.status === 'IN'){
+                //       $('#bay25B').css({fill: "#ffff80"});
+                //     }
+                //     else if (value.status === 'ID') {
+                //       $('#bay25B').css({fill: "#ff7f7f"});
+                //     }
+                //     else if (value.status === 'PR') {
+                //       $('#bay25B').css({fill: "#c2de80"});
+                //     }
+                //     else if (value.status === 'MA') {
+                //       $('#bay25B').css({fill: "#9ac3f5"});
+                //     }
+                //     })
 
                   this.bay26 =  this._toolsListed.filter(data=>{
                     return data.bay_number==26 && data.is_active == true
@@ -1109,9 +1130,7 @@ export class BayhomeComponent implements OnInit {
                                 $('#bay48').css({fill: "#9ac3f5"});
                               }
                               })
-  
-
-      })
+                            })
 
       // this._cumulativeLab = '';
       // this._cumulativeUtilization = this.http.get('assets/json/labUtilization.json').subscribe(data=>{
