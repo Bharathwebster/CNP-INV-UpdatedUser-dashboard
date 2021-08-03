@@ -1114,7 +1114,7 @@ export class BayhomeComponent implements OnInit {
                             })
 
                             this.bay48 =  this._toolsListed.filter(data=>{
-                              return data.bay_number==48 && data.is_active == true
+                              return data.bay_number==47 && data.is_active == true
                             });
                               this.bay48.forEach(function (value) {
                               if(value.status === 'IN'){
