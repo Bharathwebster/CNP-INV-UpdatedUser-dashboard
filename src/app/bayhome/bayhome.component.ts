@@ -548,25 +548,59 @@ export class BayhomeComponent implements OnInit {
                   }
                   })
 
-                  this.bay24 =  this._toolsListed.filter(data=>{
-                    return data.bay_number==24 && data.is_active == true
+                  // this.bay24 =  this._toolsListed.filter(data=>{
+                  //   return data.bay_number==24 && data.is_active == true
+                  // });
+                  //   this.bay24.forEach(function (value) {
+                  //   if(value.status === 'IN'){
+                  //     $('#bay24').css({fill: "#ffff80"});
+                  //   }
+                  //   else if (value.status === 'ID') {
+                  //     $('#bay24').css({fill: "#ff7f7f"});
+                  //   }
+                  //   else if (value.status === 'PR') {
+                  //     $('#bay24').css({fill: "#c2de80"});
+                  //   }
+                  //   else if (value.status === 'MA') {
+                  //     $('#bay24').css({fill: "#9ac3f5"});
+                  //   }
+                  //   })
+
+                  this.bay24A =  this._toolsListed.filter(data=>{
+                    return data.bay_number=='24A' && data.is_active == true
                   });
-                    this.bay24.forEach(function (value) {
+                    this.bay24A.forEach(function (value) {
                     if(value.status === 'IN'){
-                      $('#bay24').css({fill: "#ffff80"});
+                      $('#bay24A').css({fill: "#ffff80"});
                     }
                     else if (value.status === 'ID') {
-                      $('#bay24').css({fill: "#ff7f7f"});
+                      $('#bay24A').css({fill: "#ff7f7f"});
                     }
                     else if (value.status === 'PR') {
-                      $('#bay24').css({fill: "#c2de80"});
+                      $('#bay24A').css({fill: "#c2de80"});
                     }
                     else if (value.status === 'MA') {
-                      $('#bay24').css({fill: "#9ac3f5"});
+                      $('#bay24A').css({fill: "#9ac3f5"});
                     }
                     })
 
-
+                    this.bay24B =  this._toolsListed.filter(data=>{
+                      return data.bay_number=='24B' && data.is_active == true
+                    });
+                      this.bay24B.forEach(function (value) {
+                      if(value.status === 'IN'){
+                        $('#bay24B').css({fill: "#ffff80"});
+                      }
+                      else if (value.status === 'ID') {
+                        $('#bay24B').css({fill: "#ff7f7f"});
+                      }
+                      else if (value.status === 'PR') {
+                        $('#bay24B').css({fill: "#c2de80"});
+                      }
+                      else if (value.status === 'MA') {
+                        $('#bay24B').css({fill: "#9ac3f5"});
+                      }
+                      })
 
 
                     this.bay25 =  this._toolsListed.filter(data=>{
@@ -987,23 +1021,77 @@ export class BayhomeComponent implements OnInit {
                               }
                               })
 
-                          this.bay41 =  this._toolsListed.filter(data=>{
-                            return data.bay_number==41 && data.is_active == true
+                          this.bay41A =  this._toolsListed.filter(data=>{
+                            return data.bay_number=='41A' && data.is_active == true
                           });
-                            this.bay41.forEach(function (value) {
+                            this.bay41A.forEach(function (value) {
                             if(value.status === 'IN'){
-                              $('#bay41').css({fill: "#ffff80"});
+                              $('#bay41A').css({fill: "#ffff80"});
                             }
                             else if (value.status === 'ID') {
-                              $('#bay41').css({fill: "#ff7f7f"});
+                              $('#bay41A').css({fill: "#ff7f7f"});
                             }
                             else if (value.status === 'PR') {
-                              $('#bay41').css({fill: "#c2de80"});
+                              $('#bay41A').css({fill: "#c2de80"});
                             }
                             else if (value.status === 'MA') {
-                              $('#bay41').css({fill: "#9ac3f5"});
+                              $('#bay41A').css({fill: "#9ac3f5"});
                             }
                             })
+
+                            this.bay41B =  this._toolsListed.filter(data=>{
+                              return data.bay_number=='41B' && data.is_active == true
+                            });
+                              this.bay41B.forEach(function (value) {
+                              if(value.status === 'IN'){
+                                $('#bay41B').css({fill: "#ffff80"});
+                              }
+                              else if (value.status === 'ID') {
+                                $('#bay41B').css({fill: "#ff7f7f"});
+                              }
+                              else if (value.status === 'PR') {
+                                $('#bay41B').css({fill: "#c2de80"});
+                              }
+                              else if (value.status === 'MA') {
+                                $('#bay41B').css({fill: "#9ac3f5"});
+                              }
+                              })
+
+                              this.bay41C =  this._toolsListed.filter(data=>{
+                                return data.bay_number=='41C' && data.is_active == true
+                              });
+                                this.bay41C.forEach(function (value) {
+                                if(value.status === 'IN'){
+                                  $('#bay41C').css({fill: "#ffff80"});
+                                }
+                                else if (value.status === 'ID') {
+                                  $('#bay41C').css({fill: "#ff7f7f"});
+                                }
+                                else if (value.status === 'PR') {
+                                  $('#bay41C').css({fill: "#c2de80"});
+                                }
+                                else if (value.status === 'MA') {
+                                  $('#bay41C').css({fill: "#9ac3f5"});
+                                }
+                                })
+
+                                this.bay41D =  this._toolsListed.filter(data=>{
+                                  return data.bay_number=='41D' && data.is_active == true
+                                });
+                                  this.bay41D.forEach(function (value) {
+                                  if(value.status === 'IN'){
+                                    $('#bay41D').css({fill: "#ffff80"});
+                                  }
+                                  else if (value.status === 'ID') {
+                                    $('#bay41D').css({fill: "#ff7f7f"});
+                                  }
+                                  else if (value.status === 'PR') {
+                                    $('#bay41D').css({fill: "#c2de80"});
+                                  }
+                                  else if (value.status === 'MA') {
+                                    $('#bay41D').css({fill: "#9ac3f5"});
+                                  }
+                                  })
 
                           this.bay42 =  this._toolsListed.filter(data=>{
                             return data.bay_number==42 && data.is_active == true

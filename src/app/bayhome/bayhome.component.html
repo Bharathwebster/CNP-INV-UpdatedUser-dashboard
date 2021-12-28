@@ -37,7 +37,7 @@
       <div class="row" style="margin-top: 10px">
           <div class="col-lg-offset-11 col-md-offset-11 col-sm-offset-11">
           <a type="button" id="export" class="btn myButton2"
-           href="http://152.135.122.61:8871/api/export_tool_xls"
+           href="http://127.0.0.1:8001/api/export_tool_xls"
             target="_self" download="status.pdf" style="background: seagreen;">Export Excel</a>
           </div>
       </div>
@@ -65,7 +65,7 @@
         <div class="row" style="margin-top: 10px">
             <div class="col-lg-offset-11 col-md-offset-11 col-sm-offset-11">
             <a type="button" id="export" class="btn myButton2"
-             href="http://152.135.122.61:8871/api/export_tool_qtr_xls"
+             href="http://127.0.0.1:8001/api/export_tool_qtr_xls"
               target="_self" download="status.pdf" style="background: seagreen;">Export Excel</a>
             </div>
         </div>
@@ -113,6 +113,7 @@
    <path style="vector-effect: non-scaling-stroke;" stroke="null" id="svg_3" d="m0,768l1024,0l0,-768l-1024,0l0,768z"/>
   </clipPath>
  </defs>
+
  <g stroke="null">
   <title stroke="null">background</title>
   <rect stroke="null" fill="none" id="canvas_background" height="962" width="1282" y="-1" x="-1"/>
@@ -137,6 +138,7 @@
    <polyline stroke="null" id="svg_19" points="368.4880065917969,461.92999267578125 356.1830139160156,461.92999267578125 356.1830139160156,473.510986328125 368.4880065917969,473.510986328125 368.4880065917969,461.92999267578125 "/>
    <polyline stroke="null" id="svg_20" points="343.15399169921875,461.92999267578125 331.572998046875,461.92999267578125 331.572998046875,469.8919982910156 343.15399169921875,469.8919982910156 343.15399169921875,461.92999267578125 "/>
   </g>
+
   <g stroke="rgb(0,255,0)" id="svg_21" stroke-width="0" fill="rgb(0,255,0)" clip-path="url(#clipId1)">
    <text stroke="null" x="-7.598679" y="22.105249" id="svg_22" font-size="1.39636" font-family="Arial,'sans-serif'" transform="matrix(1.44762,0,0,1.44762,369.329,436.71) ">IT RACK</text>
    <text stroke="null" x="-7.598679" y="22.105249" id="svg_23" font-size="1.39636" font-family="Arial,'sans-serif'" transform="matrix(1.44762,0,0,1.44762,344.848,433.27) ">75 KVA</text>
@@ -1608,7 +1610,17 @@
    <polyline stroke="null" id="svg_1277" points="575.1309814453125,621.958984375 636.6530151367188,621.7230224609375 "/>
   </g>
   <g stroke="rgb(0,0,0)" id="svg_1278" stroke-width="0" fill="rgb(0,0,0)" clip-path="url(#clipId1)">
-   <rect stroke="null" fill="none" width="90" height="65" stroke-width="1" y="519" x="291" id="bay41" (click)="setId(41)"/>
+
+
+
+  <rect stroke="null" fill="none" width="48" height="32.5" stroke-width="1" y="520" x="286" id="bay41A" (click)="setId('41A')"/>
+  <rect stroke="null" fill="none" width="48" height="32.5" stroke-width="1" y="520" x="335" id="bay41B" (click)="setId('41B')"/>
+  <rect stroke="null" fill="none" width="48" height="32.5" stroke-width="1" y="553" x="286" id="bay41C" (click)="setId('41C')"/>
+  <rect stroke="null" fill="none" width="48" height="32.5" stroke-width="1" y="553" x="335" id="bay41D" (click)="setId('41D')"/>
+
+  
+
+
    <rect stroke="null" fill="none" width="75" height="65" y="452" x="177" stroke-width="1" id="bay43" (click)="setId(43)"/>
    <rect stroke="null" fill="none" width="56" height="22" y="661" x="498" stroke-width="1" id="bay16" (click)="setId(16)"/>
    <rect stroke="null" fill="none" width="54" height="22" y="661" x="554" stroke-width="1" id="bay17" (click)="setId(17)"/>
@@ -1642,7 +1654,9 @@
    <rect stroke="null" fill="none" width="66" stroke-width="1" height="43" y="536" x="565" id="bay10" (click)="setId(10)"/>
    <!-- <rect stroke="null" fill="none" width="25" stroke-width="1" height="42" y="536" x="621" id="bay9" (click)="setId(9)"/> -->
    <rect stroke="null" fill="none" width="63" height="43" y="536" x="631" stroke-width="1" id="bay8" (click)="setId(8)"/>
-   <rect stroke="null" fill="none" width="75" height="75" y="496" x="852" stroke-width="1" id="bay24" (click)="setId(24)"/>
+   <rect stroke="null" fill="none" width="75" height="35" y="500" x="852" stroke-width="1" id="bay24A" (click)="setId('24A')"/>
+   <rect stroke="null" fill="none" width="75" height="35" y="535" x="852" stroke-width="1" id="bay24B" (click)="setId('24B')"/>
+   
    <rect  fill="none" stroke-width="1" x="979" y="363" height="38" width="27" id="bay32" (click)="setId(32)"></rect>
    <rect stroke="null" fill="none" width="27" height="38" y="363" x="952" stroke-width="1" id="bay33" (click)="setId(32)"/>
    <rect stroke="null" fill="none" width="25" height="45" y="414" x="670" stroke-width="1" id="bay5" (click)="setId(5)"></rect>
@@ -1650,7 +1664,15 @@
 
    <rect stroke="null" fill="none" stroke-width="1" width="25" height="39" y="335" x="669" id="bay3" (click)="setId(3)"/>
 
-   <text stroke="null" x="19.787756" y="30.950366" id="svg_1279" font-size="2" font-family="Arial,'sans-serif'" transform="matrix(5.7905000000000015,0,0,5.840706926703454,200.42800000000003,377.21125341582297) ">Bay-41</text>
+   <!-- <text stroke="null" x="19.787756" y="27.950366" id="svg_1279" font-size="2" font-family="Arial,'sans-serif'" transform="matrix(5.7905000000000015,0,0,5.840706926703454,200.42800000000003,377.21125341582297) ">Bay-41</text> -->
+
+   <text stroke="null" x="16.787756" y="27.950366" id="svg_1279" font-size="1.8" font-family="Arial,'sans-serif'" transform="matrix(5.7905000000000015,0,0,5.840706926703454,200.42800000000003,377.21125341582297) ">B41(a)</text>
+   <text stroke="null" x="24.587756" y="27.950366" id="svg_1279" font-size="1.8" font-family="Arial,'sans-serif'" transform="matrix(5.7905000000000015,0,0,5.840706926703454,200.42800000000003,377.21125341582297) ">B41(b)</text>
+   <text stroke="null" x="16.787756" y="33.550366" id="svg_1279" font-size="1.8" font-family="Arial,'sans-serif'" transform="matrix(5.7905000000000015,0,0,5.840706926703454,200.42800000000003,377.21125341582297) ">B41(c)</text>
+   <text stroke="null" x="24.587756" y="33.550366" id="svg_1279" font-size="1.8" font-family="Arial,'sans-serif'" transform="matrix(5.7905000000000015,0,0,5.840706926703454,200.42800000000003,377.21125341582297) ">B41(d)</text>
+
+
+
    <text stroke="null" x="19.187756" y="33.950366" id="svg_1280" font-size="2" font-family="Arial,'sans-serif'" transform="matrix(5.7905000000000015,0,0,5.840706926703454,89.09200000000001,288.8890324292184) ">Bay-43</text>
    <text stroke="null" x="-2.82887" y="6.944161" id="svg_1281" font-size="2" font-family="Arial,'sans-serif'" transform="matrix(4.34287,0,0,4.380525151674747,682.452,330.9213513121605) ">Bay-3</text>
    <text stroke="null" x="-2.4" y="6.944161" id="svg_1282" font-size="2" font-family="Arial,'sans-serif'" transform="matrix(4.34287,0,0,4.380525151674747,681.15,409.7418955438137) ">Bay-5</text>
@@ -1663,15 +1685,31 @@
    <!-- <text stroke="null" x="1.467113" y="6.944161" id="svg_1287" font-size="2" font-family="Arial,'sans-serif'" transform="matrix(4.34287,0,0,4.380525151674747,524.462,532.859216460228) ">B11(b)</text> -->
 
 
+   <!-- here I'm editing for console9 START-->
+
+   <!-- <rect _ngcontent-c2="" fill="pink" height="65" stroke-width="0.3" width="55" x="754" y="195" rx="10" ry="40"></rect>
+   <text _ngcontent-c2="" font-family="Arial,'sans-serif'" font-size="1.79636" id="svg_1319" stroke="null"  stroke-width="0" transform="matrix(3.34287,0,0,3.34287,895.712,178.649)" x="-40.532887" y="23.538137">Entrence - New</text>
+   <rect _ngcontent-c2="" fill="none" height="75" stroke-width="0.2"  width="375" x="665" y="186"></rect>
+   <rect _ngcontent-c2="" fill="none" height="55" id="bay101" stroke-width="1" style="fill: rgb(255, 255, 128);" width="70" x="685" y="196" ></rect>
+   <rect _ngcontent-c2="" fill="none" height="55" id="bay102" stroke-width="1" style="fill: rgb(255, 255, 128);" width="70" x="810" y="196"></rect>
+   <rect _ngcontent-c2="" fill="none" height="55" id="bay103" stroke-width="1" style="fill: rgb(255, 255, 128);" width="70" x="880" y="196"></rect>
+   <rect _ngcontent-c2="" fill="none" height="55" id="bay104" stroke-width="1" style="fill: rgb(255, 255, 128);" width="70" x="950" y="196"></rect>
+
+   <text stroke="null" stroke-width="0" x="-22.567113" y="-13.138137" id="svg_1318" font-size="2" font-family="Arial,'sans-serif'" transform="matrix(4.34287,0,0,4.34287,802.316,283.628) ">Bay-101</text>
+   <text stroke="null" stroke-width="0" x="6.567113" y="-13.138137" id="svg_1318" font-size="2" font-family="Arial,'sans-serif'" transform="matrix(4.34287,0,0,4.34287,802.316,283.628) ">Bay-102</text>
+   <text stroke="null" stroke-width="0" x="21.567113" y="-13.138137" id="svg_1318" font-size="2" font-family="Arial,'sans-serif'" transform="matrix(4.34287,0,0,4.34287,802.316,283.628) ">Bay-103</text>
+   <text stroke="null" stroke-width="0" x="38.567113" y="-13.138137" id="svg_1318" font-size="2" font-family="Arial,'sans-serif'" transform="matrix(4.34287,0,0,4.34287,802.316,283.628) ">Bay-104</text> -->
+
+
+   <!-- here editing for console9 END -->
+
+
+
+
    <rect stroke-width="1" fill="none" width="46" height="30" y="285" x="945" id="bay6B"  (click)="setId('6B')"></rect>
    <rect stroke-width="1" fill="none" width="46" height="30" y="285" x="991" id="bay6C"   (click)="setId('6C')"></rect>
    <rect stroke-width="1" fill="none" width="92" height="24" y="315" x="945" id="bay6A"  (click)="setId('6A')"></rect>
-
-
-
-   
    <text font-family="Arial,'sans-serif'" font-size="2" id="svg_1318" stroke="null" stroke-width="0" transform="matrix(4.34287,0,0,4.34287,802.316,279.628) "  x="39.467113" y="11.138137">Bay-6 (a)</text>
-   
    <text font-family="Arial,'sans-serif'" font-size="2" id="svg_1318" stroke="null" stroke-width="0" transform="matrix(4.34287,0,0,4.34287,802.316,279.628) " x="34.467113" y="5.138137">Bay-6 (b)</text>
    <text font-family="Arial,'sans-serif'" font-size="2" id="svg_1318" stroke="null" stroke-width="0" transform="matrix(4.34287,0,0,4.34287,802.316,279.628) " x="45.467113" y="5.138137">Bay-6 (c)</text>
 
@@ -1692,7 +1730,9 @@
    <text stroke="null" x="-2.532887" y="6.944161" id="svg_1300" font-size="2" font-family="Arial,'sans-serif'" transform="matrix(4.34287,0,0,4.380525151674747,729.187,641.3562449612618) ">Bay-20</text>
    <text stroke="null" x="-2.532887" y="6.944161" id="svg_1301" font-size="1.39636" font-family="Arial,'sans-serif'" transform="matrix(4.34287,0,0,4.380525151674747,770.691,495.42039097046853) ">Electrical/IDF Room</text>
    <text stroke="null" x="-2.532887" y="6.944161" id="svg_1302" font-size="1.39636" font-family="Arial,'sans-serif'" transform="matrix(4.34287,0,0,4.380525151674747,777.061,539.4458352723123) ">Pump Room</text>
-   <text stroke="null" x="-0.532887" y="7.944161" id="svg_1303" font-size="2" font-family="Arial,'sans-serif'" transform="matrix(4.34287,0,0,4.380525151674747,874.477,503.0711572322845) ">Bay-24</text>
+   <text stroke="null" x="-0.532887" y="3.544161" id="svg_1303" font-size="2" font-family="Arial,'sans-serif'" transform="matrix(4.34287,0,0,4.380525151674747,874.477,503.0711572322845) ">Bay-24(a)</text>
+   <text stroke="null" x="-0.532887" y="11.944161" id="svg_1303" font-size="2" font-family="Arial,'sans-serif'" transform="matrix(4.34287,0,0,4.380525151674747,874.477,503.0711572322845) ">Bay-24(b)</text>
+
   </g>
   <g stroke="rgb(0,0,0)" id="svg_1304" stroke-width="0" fill="rgb(0,0,0)" clip-path="url(#clipId1)">
 
