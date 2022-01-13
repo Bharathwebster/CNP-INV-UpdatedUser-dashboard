@@ -1295,6 +1295,45 @@ export class BayhomeComponent implements OnInit {
                                 $('#bay48').css({fill: "#9ac3f5"});
                               }
                               })
+
+                              this.bay49 =  this._toolsListed.filter(data=>{
+                                return data.bay_number==49 && data.is_active == true
+                              });
+                                this.bay49.forEach(function (value) {
+                                if(value.status === 'IN'){
+                                  $('#bay49').css({fill: "#ffff80"});
+                                }
+                                else if (value.status === 'ID') {
+                                  $('#bay49').css({fill: "#ff7f7f"});
+                                }
+                                else if (value.status === 'PR') {
+                                  $('#bay49').css({fill: "#c2de80"});
+                                }
+                                else if (value.status === 'MA') {
+                                  $('#bay49').css({fill: "#9ac3f5"});
+                                }
+                                })
+
+                                this.bay50 =  this._toolsListed.filter(data=>{
+                                  return data.bay_number==50 && data.is_active == true
+                                });
+                                  this.bay50.forEach(function (value) {
+                                  if(value.status === 'IN'){
+                                    $('#bay50').css({fill: "#ffff80"});
+                                  }
+                                  else if (value.status === 'ID') {
+                                    $('#bay50').css({fill: "#ff7f7f"});
+                                  }
+                                  else if (value.status === 'PR') {
+                                    $('#bay50').css({fill: "#c2de80"});
+                                  }
+                                  else if (value.status === 'MA') {
+                                    $('#bay50').css({fill: "#9ac3f5"});
+                                  }
+                                  })
+
+
+
                             })
 
       // this._cumulativeLab = '';
